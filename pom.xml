@@ -13,6 +13,7 @@
 	<artifactId>parking</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>parking</name>
+	<packaging>war<packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -78,7 +79,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://3.12.148.182:8081/nexus/content/repositories/snapshots</url>
+	    <url>http://3.14.143.211:8081/nexus/content/repositories/snapshots</url>
 	  </snapshotRepository>
 	</distributionManagement>
 	
