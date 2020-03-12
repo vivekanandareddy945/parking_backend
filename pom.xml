@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>parking</artifactId>
-	<version>1.9</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>parking</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -76,10 +76,10 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-	  <repository>
-	    <id>releases</id>
-	    <url>http://3.133.151.154:8081/nexus/content/repositories/releases</url>
-	  </repository>
+	  <snapshotRepository>
+	    <id>nexus</id>
+	    <url>http://3.133.151.154:8081/nexus/content/repositories/snapshots</url>
+	  </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
